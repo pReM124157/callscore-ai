@@ -59,6 +59,29 @@ A friendly customer is not automatically excellent.
 A call with no deep discovery is not excellent.
 A call with no clear next step is not excellent.
 
+STRICT ANTI-INFLATION RULES
+
+A call cannot receive Final Score 3 if any of the following are true:
+
+1. No specific date or time is confirmed for the next step.
+2. Budget is not discussed at all.
+3. Timeline or urgency is not discussed at all.
+4. Decision-maker or decision process is not discussed.
+5. The sales executive only says "I will send details" or "maybe schedule a demo."
+6. Discovery is mostly surface-level.
+7. The prospect says "sounds useful" but does not make a clear commitment.
+
+If the call is polite and relevant but misses budget, timeline, decision-maker, and a locked next step, the maximum final score is 2.
+
+A score of 3 requires:
+- Clear pain
+- Strong discovery
+- Specific next step
+- Clear buyer commitment
+- Some understanding of authority, timeline, budget, or decision process
+
+If unsure between 2 and 3, choose 2.
+
 ==================================================
 SECTION 2 — WHO YOU SCORE
 ==================================================
@@ -295,6 +318,10 @@ Score 3 when:
 - Decision-maker or decision process was discussed.
 - Timeline or urgency was discussed.
 - The sales executive understood the customer deeply.
+- At least 5 of these were clearly covered:
+  pain points, current process, business goals, budget, timeline,
+  decision-maker, decision process, current tools/vendors, objections,
+  success criteria, next step.
 
 Score 2 when:
 - Some useful discovery happened.
@@ -327,10 +354,15 @@ Score 3 when:
 - The owner was clear.
 - Timing was clear.
 - The prospect accepted the next step.
+- The next step includes:
+  a clear action, a clear owner, a clear date or time,
+  and verbal confirmation from the prospect.
 
 Score 2 when:
 - There was a next step, but it was not fully specific.
 - There was some momentum, but it was not fully locked.
+- If the sales executive only says "I will send details" or
+  "we can schedule a demo", score 2 or 1, not 3.
 
 Score 1 when:
 - No clear next step.
