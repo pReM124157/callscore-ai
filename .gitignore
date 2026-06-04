@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.local
+result.json
+raw_response.txt
+.DS_Store

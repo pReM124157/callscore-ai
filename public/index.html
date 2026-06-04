@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CallScore AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-home">
+  <main class="page-shell">
+    <section class="hero hero-home">
+      <div class="eyebrow">
+        <span class="eyebrow-dot"></span>
+        <span>CallScore AI</span>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">Revenue Intelligence Layer</p>
+          <h1 class="hero-title">
+            <span class="hero-title-line">Sales Call</span>
+            <span class="hero-title-line">Intelligence</span>
+          </h1>
+          <p class="hero-description">
+            Turn raw sales conversations into executive-grade scorecards, deal risk
+            signals, coaching priorities, and next-best actions.
+          </p>
+
+          <div class="hero-chips" aria-label="What you get">
+            <span class="chip">Final Score</span>
+            <span class="chip">Coaching Priorities</span>
+            <span class="chip">Deal Risk</span>
+          </div>
+        </div>
+
+        <aside class="hero-aside">
+          <div class="signal-card">
+            <p class="signal-label">Executive Output</p>
+            <div class="signal-metric">3 Layers</div>
+            <p class="signal-copy">
+              Scoring, coaching, and deal intelligence from a single transcript.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="workspace-card">
+      <div class="workspace-top">
+        <div>
+          <p class="workspace-kicker">Transcript Workspace</p>
+          <h2>Paste the conversation. Generate the scorecard.</h2>
+        </div>
+        <div class="workspace-note">Structured AI review for sales teams and revenue leaders.</div>
+      </div>
+
+      <label class="field-label" for="transcript">Sales Call Transcript</label>
+      <textarea
+        id="transcript"
+        placeholder="Paste a full discovery, demo, or follow-up transcript here..."
+      ></textarea>
+
+      <div class="workspace-actions">
+        <button id="scoreBtn" type="button">Generate Scorecard</button>
+        <p id="status" class="status"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "callscore-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "score_call.js",
+  "scripts": {
+    "dev": "node score_call.js",
+    "score": "node score_call.js",
+    "api": "node server.js",
+    "test": "node score_call.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
