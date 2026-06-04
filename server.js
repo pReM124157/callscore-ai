@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+const path = require("path");
 const express = require("express");
 const { scoreTranscript } = require("./lib/scoreEngine");
 
@@ -7,7 +8,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json({ limit: "2mb" }));
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
+
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
+app.get("/report.html", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "report.html"));
+});
 
 app.get("/health", (req, res) => {
   res.json({
